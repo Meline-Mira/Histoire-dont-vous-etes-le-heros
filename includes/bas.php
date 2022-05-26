@@ -4,7 +4,16 @@
                     <div id="texte">
                     
                         <div id="titre-aside">
-                            <h1>Voyage au pays des Leprechauns</h1>
+                            <h1>
+                                <?php
+                                    if (isset($_COOKIE["pseudo"])) {
+                                        echo $_COOKIE["pseudo"];
+                                    } else {
+                                        echo "Voyage";
+                                    }
+                                ?>
+                                au pays des Leprechauns
+                            </h1>
                         </div>
 
                         <div id="zone">

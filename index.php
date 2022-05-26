@@ -9,7 +9,7 @@
 <hr id="reliure" />
 
 <div id="propositions">
-    <form method="post" action="traitement.php">
+    <form method="post" action="enregistrer_infos.php">
         <p>
             <label for="pseudo">Choisissez votre pseudo :</lable>
             <input type="text" name="pseudo" id="pseudo" seize="10" placeholder="10 caractères max"/>
