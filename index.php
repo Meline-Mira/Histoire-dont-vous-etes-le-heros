@@ -40,4 +40,7 @@
     </form>
 </div>
 
-<?php require "includes/bas.php" ?>        
+<?php
+$zone = "Accueil";
+require "includes/bas.php";
+?>   

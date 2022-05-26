@@ -26,4 +26,7 @@
     </form>
 </div>
 
-<?php require "includes/bas.php" ?>  
+<?php
+$zone = "Votre salon douillet";
+require "includes/bas.php";
+?> 

@@ -12,7 +12,7 @@
                         </div>
 
                         <div id="zone-actuelle">
-                            <p>Accueil</p>
+                            <p><?php echo $zone; ?></p>
                         </div>
                     </div>
                 </aside>
