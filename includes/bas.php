@@ -17,7 +17,7 @@
                         </div>
 
                         <div id="zone">
-                            <p>Zone</p>
+                            <p>Zone : </p>
                         </div>
 
                         <div id="zone-actuelle">
