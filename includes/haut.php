@@ -1,3 +1,6 @@
+<?php
+    require 'functions.php';
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -33,8 +36,7 @@
 
                 <nav>
                     <ul>
-                        <li><a href="#">Recommencer</a></li>
-                        <li><a href="#">Changer de pseudo</a></li>
+                        <li><a href="/recommencer.php">Recommencer</a></li>
                         <li><a href="#">Crédits</a></li>
                     </ul>
                 </nav>
