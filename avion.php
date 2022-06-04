@@ -42,10 +42,10 @@
 <div id="propositions">
     <p>Que faites-vous ?</p>
     <ul>
-        <li><a href="#">Vous examinez les traces de plus près.</a></li>
-        <li><a href="#">Vous cherchez sur internet à quel animal ces empreintes peuvent appartenir (et êtes agréablement 
+        <li><a href="traces.php">Vous examinez les traces de plus près.</a></li>
+        <li><a href="animal_etrange.php">Vous cherchez sur internet à quel animal ces empreintes peuvent appartenir (et êtes agréablement 
         surpris d'avoir du réseau sur votre téléphone).</a></li>
-        <li><a href="#">La taille des empreintes vous impressionne. Finalement vous n'avez pas très envie de vous 
+        <li><a href="partir.php">La taille des empreintes vous impressionne. Finalement vous n'avez pas très envie de vous 
         frotter à un adversaire si grand. Vous faites semblant de regarder ça et là, puis déclarez qu'il n'y a pas assez 
         d'indices pour continuer l'enquête. Vous dites à la petite famille être 
         <?php
@@ -56,6 +56,6 @@
 </div>
 
 <?php
-$zone = "À l'aéroport";
+$zone = "Dans la demeure des Leprechauns";
 require "includes/bas.php";
 ?> 

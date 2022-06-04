@@ -37,10 +37,10 @@
 <div id="propositions">
     <p>Que faites-vous ?</p>
     <ul>
-        <li><a href="#">Vous réservez dès à présent votre billet d’avion pour rejoindre votre tante.</a></li>
-        <li><a href="#">Vous appelez un hôpital psychiatrique proche de chez votre tante, pour leur expliquer qu’elle 
+        <li><a href="avion.php">Vous réservez dès à présent votre billet d’avion pour rejoindre votre tante.</a></li>
+        <li><a href="hopital.php">Vous appelez un hôpital psychiatrique proche de chez votre tante, pour leur expliquer qu’elle 
             est persuadée de discuter avec des Leprechauns et que vous vous inquiétez pour sa santé mentale.</a></li>
-        <li><a href="#">Vous décidez d‘appeler votre tante pour en savoir plus sur cette histoire abracadabrante.</a></li>
+        <li><a href="appeler_tante.php">Vous décidez d‘appeler votre tante pour en savoir plus sur cette histoire abracadabrante.</a></li>
     </ul>
     </form>
 </div>

@@ -77,6 +77,7 @@ article {
     background-image: url("images/fond.jpg");
     border: 10px #7F4724 solid;
     border-radius: 3px;
+    color: #1F0E05;
 }
 
 #histoire, #propositions {
@@ -85,10 +86,80 @@ article {
     margin: auto;
 }
 
+#image {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    border-left: 3px solid #1F0E05;
+    border-top: 3px solid #1F0E05;
+    margin :auto;
+    max-width: 19rem;
+    width: 100%;
+    max-height: 19rem;
+    height: 100%;
+}
+
+td {
+    border: 1px solid #1F0E05;
+    width: 11%;
+    height: 11%;
+    text-align: center;
+}
+
+td:nth-child(3n) {
+    border-right: 3px solid #1F0E05;
+}
+
+tr:nth-child(3n) {
+    border-bottom: 3px solid #1F0E05;
+}
+
+.chiffre {
+    color:blue;
+}
+
+#reponse {
+    color:#F24236;
+}
+
+#histoire a {
+    color: #3B1A09;
+    text-decoration: none;
+}
+
+#histoire a:hover {
+    text-decoration: underline;
+}
+
+#histoire a:visited {
+    color: #3B1A09;
+    text-decoration: none;
+}
+
 #reliure {
     background-color: #4C230A;
     filter: blur(4px);
     margin: 0;
+}
+
+article ul a {
+    color: #3B1A09;
+    text-decoration: none;
+}
+
+article ul a:hover {
+    text-decoration: underline;
+}
+
+article ul a:visited {
+    color: #3B1A09;
+    text-decoration: none; 
+}
+
+label {
+    color: #3B1A09;
 }
 
 aside {

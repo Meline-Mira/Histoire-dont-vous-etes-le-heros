@@ -14,13 +14,13 @@
 <div id="propositions">
     <p>Que faites-vous ?</p>
     <ul>
-        <li><a href="#">
+        <li><a href="intrigue_mail.php">
             <?php
                 echo accorder('Intrigué', 'Intriguée');
             ?>, vous ouvrez le mail.</a></li>
-        <li><a href="#">Vous bloquez votre tante. Cela suffit maintenant. Elle est au courant que vous pouvez porter 
+        <li><a href="bloquer_tante.php">Vous bloquez votre tante. Cela suffit maintenant. Elle est au courant que vous pouvez porter 
             plainte pour harcèlement ?</a></li>
-        <li><a href="#">Vous décidez d‘appeler votre tante pour en savoir plus.</a></li>
+        <li><a href="appeler_tante.php">Vous décidez d‘appeler votre tante pour en savoir plus.</a></li>
     </ul>
     </form>
 </div>

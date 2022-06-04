@@ -45,8 +45,8 @@
             <p>
             <input type="submit" value="Valider" />
             </p></form></li>
-        <li><a href="#">Vous prenez un tunnel au hasard.</a></li>
-        <li><a href="#">Vous ne savez pas comment décrypter le message. Vous baissez les bras et préférez rentrer chez 
+        <li><a href="perdu.php">Vous prenez un tunnel au hasard.</a></li>
+        <li><a href="abandonner_1.php">Vous ne savez pas comment décrypter le message. Vous baissez les bras et préférez rentrer chez 
         vous.</a></li>
     </ul>
     </form>

@@ -17,10 +17,10 @@
 <div id="propositions">
     <p>Que faites-vous ?</p>
     <ul>
-        <li><a href="#">Vous réservez dès à présent votre billet d’avion pour rejoindre votre tante.</a></li>
-        <li><a href="#">Vous recontactez votre tante pour lui expliquer que vous avez un emploi du temps chargé et que 
+        <li><a href="avion.php">Vous réservez dès à présent votre billet d’avion pour rejoindre votre tante.</a></li>
+        <li><a href="charge.php">Vous recontactez votre tante pour lui expliquer que vous avez un emploi du temps chargé et que 
         vous ne pouvez pas vous libérer.</a></li>
-        <li><a href="#"> 
+        <li><a href="aide_a_distance.php"> 
         <?php
             echo accorder('Chargé', 'Chargée');
         ?>  par votre quotidien, vous acceptez néanmoins de donner quelques conseils et idées à distance.</a></li>

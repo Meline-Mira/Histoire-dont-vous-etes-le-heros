@@ -30,14 +30,14 @@
 <div id="propositions">
     <p>Que faites-vous ?</p>
     <ul>
-        <li><a href="#">Vous réservez dès à présent votre billet d’avion pour rejoindre votre tante.</a></li>
-        <li><a href="#">Vous allez vous coucher et décidez de prendre quelques jours de congés. Cela vous semble 
+        <li><a href="avion.php">Vous réservez dès à présent votre billet d’avion pour rejoindre votre tante.</a></li>
+        <li><a href="bloquer_apres_telephone.php">Vous allez vous coucher et décidez de prendre quelques jours de congés. Cela vous semble 
             indispensable. Vous espérez qu’un peu de repos évitera de nouvelles hallucinations. Vous bloquez votre tante 
             sur votre boîte mail et téléphone, on n'est jamais trop 
             <?php
             echo accorder('prudent', 'prudente');
             ?>.</a></li>
-        <li><a href="#">Vous décidez de rappeler votre tante, puis de prendre quelques jours de réflexion avant de 
+        <li><a href="reflexion.php">Vous décidez de rappeler votre tante, puis de prendre quelques jours de réflexion avant de 
             prendre une décision.</a></li>
     </ul>
     </form>

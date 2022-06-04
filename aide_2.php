@@ -42,8 +42,8 @@
             <p>
             <input type="submit" value="Valider" />
             </p></form></li>
-            <li><a href="#">Vous donnez un code au hasard.</a></li>
-            <li><a href="#">Le code est trop compliqué. Vous baissez les bras et expliquez que vous ne pouvez pas plus aider.</a></li>
+            <li><a href="hasard.php">Vous donnez un code au hasard.</a></li>
+            <li><a href="abandonner_2.php">Le code est trop compliqué. Vous baissez les bras et expliquez que vous ne pouvez pas plus aider.</a></li>
     </ul>
     </form>
 </div>

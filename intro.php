@@ -18,12 +18,12 @@
 <div id="propositions">
     <p>Que faites-vous ?</p>
     <ul>
-        <li><a href="#">
+        <li><a href="intrigue_mail.php">
             <?php
                 echo accorder('Intrigué', 'Intriguée');
             ?>, vous ouvrez le mail.</a></li>
-        <li><a href="#">Vous regarderez ce mail plus tard, d’autres vous paraissent plus urgents.</a></li>
-        <li><a href="#">Vous décidez de ne pas ouvrir le mail. Cette tante est complétement folle de 
+        <li><a href="mail_plus_tard.php">Vous regarderez ce mail plus tard, d’autres vous paraissent plus urgents.</a></li>
+        <li><a href="pas_ouvrir_mail.php">Vous décidez de ne pas ouvrir le mail. Cette tante est complétement folle de 
         toute façon.</a></li>
     </ul>
     </form>
