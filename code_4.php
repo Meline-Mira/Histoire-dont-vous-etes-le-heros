@@ -1,7 +1,7 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
-    <div id="audio"><audio src="musique/The-Cave-of-the-Ancient-Warriors-#1-c_01.mp3" controls></audio></div>
+    <div id="audio"><audio src="musique/The-Cave-of-the-Ancient-Warriors-1-c_01.mp3" controls></audio></div>
 
     <p>Vous sentez que votre tante va mieux. Vous repartez donc plus 
         <?php

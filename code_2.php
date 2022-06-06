@@ -1,7 +1,7 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
-    <div id="audio"><audio src="musique/The-Cave-of-the-Ancient-Warriors-#1-c_01.mp3" controls></audio></div>
+    <div id="audio"><audio src="musique/The-Cave-of-the-Ancient-Warriors-1-c_01.mp3" controls></audio></div>
 
     <p>Vous avancez tout droit sur quelques mètres, puis tombez de nouveau sur plusieurs embranchements. Heureusement, 
     cette fois encore, le voleur a dû se repérer lui aussi et a laissé un nouveau code. </p>

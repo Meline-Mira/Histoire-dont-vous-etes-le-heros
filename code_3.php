@@ -1,7 +1,7 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
-    <div id="audio"><audio src="musique/The-Cave-of-the-Ancient-Warriors-#1-c_01.mp3" controls></audio></div>
+    <div id="audio"><audio src="musique/The-Cave-of-the-Ancient-Warriors-1-c_01.mp3" controls></audio></div>
 
     <p>Tatie Germaine commence à fatiguer. Vous l'auriez bien porté pour la soulager, mais la hauteur des tunnels ne 
     vous le permet pas... À moins que vous ne teniez particulièrement à ce qu'elle se cogne la tête à tous les pas. Vous 
