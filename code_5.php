@@ -37,6 +37,6 @@
 </div>
 
 <?php
-$zone = "Entre la demeur de Dubhan et la maison de votre tante";
+$zone = "Entre la demeure de Dubhan et la maison de votre tante";
 require "includes/bas.php";
 ?> 
