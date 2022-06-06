@@ -1,6 +1,8 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
+    <div id="audio"><audio src="musique/running-from-something.mp3" controls></audio></div>
+
     <p>L'hôpital vous appelle pour vous prévenir qu'ils sont allés voir votre tante. Elle se porte comme un charme, bien 
     qu'elle n'ait pas apprécié les insinuations des psychologues venus lui rendre visite.</p>
 

@@ -16,12 +16,11 @@
                             </h1>
                         </div>
 
-                        <div id="zone">
-                            <p>Zone : </p>
-                        </div>
-
-                        <div id="zone-actuelle">
-                            <p><?php echo $zone; ?></p>
+                        <div>
+                            <p>
+                                <span id="zone">Zone</span> : </br>
+                                <?php echo $zone; ?>
+                            </p>
                         </div>
                     </div>
                 </aside>
@@ -33,11 +32,13 @@
                 <p>À propos de l'autrice :</p>
 
                 <p id="git">
-                    <span class="icone"><i class="fa fa-github" aria-hidden="true"></span></i> <a href="#">Mon profil</a>
+                    <span class="icone"><i class="fa fa-github" aria-hidden="true"></span></i> 
+                    <a href="https://github.com/Meline-Mira">Github</a>
                 </p>
 
                 <p id="linkedin">
-                    <span class="icone"><i class="fa fa-linkedin-square" aria-hidden="true"></span></i> <a href="#">Mon profil</a>
+                    <span class="icone"><i class="fa fa-linkedin-square" aria-hidden="true"></span></i> 
+                    <a href="https://www.linkedin.com/in/emeline-gineys-35b2b714b">Linkedin</a>
                 </p>
             </footer>
         </div>

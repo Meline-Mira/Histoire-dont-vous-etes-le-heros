@@ -1,6 +1,8 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
+    <div id="audio"><audio src="musique/Adventure-Theme-Intro.wav" controls></audio></div>
+
     <p>Le message s’ouvre et vous le lisez.</p>
     
     <p>

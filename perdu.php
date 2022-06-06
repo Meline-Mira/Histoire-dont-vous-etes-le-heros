@@ -1,6 +1,8 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
+    <div id="audio"><audio src="musique/skin_cells_touch.flac" controls></audio></div>
+
     <p>Le tunnel que vous avez choisi n'était pas le bon. Le sous-sol est labyrinthique. Vous finissez par vous perdre. 
     Après des heures de marches, vous trouvez une sortie vers laquelle vous vous ruez comme un fou. Tatie Germaine vous 
     informe très aimablement qu'elle sait où vous êtes, mais que c'est à au moins 50km de chez elle. Vous êtes pourtant 

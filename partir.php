@@ -1,6 +1,8 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
+    <div id="audio"><audio src="musique/skin_cells_touch.flac" controls></audio></div>
+
     <p>Les Leprechauns sont furieux de vous avoir fait confiance. Tout au long de votre trajet jusqu'à l'aéroport, vous 
     rencontrez des problèmes de pneus crevés, de route glissante, d'imposants animaux traversant juste devant votre 
     véhicule, d'embourbement dans un fossé et autres joyeusetés. Vous attendez pendant des heures dans la salle 

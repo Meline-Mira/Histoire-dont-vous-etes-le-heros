@@ -37,7 +37,7 @@
                 <nav>
                     <ul>
                         <li><a href="/recommencer.php">Recommencer</a></li>
-                        <li><a href="#">Crédits</a></li>
+                        <li><a href="/credits.php">Crédits</a></li>
                     </ul>
                 </nav>
             </header>

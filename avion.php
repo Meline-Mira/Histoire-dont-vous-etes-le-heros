@@ -1,6 +1,7 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
+    <div id="audio"><audio src="musique/Ceasefire.mp3" controls></audio></div>
     <p>Vous envoyez un mail à votre tante pour lui donner votre horaire d'atterrissage, l'appelez pour être certain 
     qu'elle ait toutes les informations dont elle a besoin, puis faites votre valise. N'oubliez pas de prendre votre 
     pyjama et vos sous-vêtements, on a tendance à les oublier facilement… Ce serait dommage, non ? </p>
@@ -18,7 +19,10 @@
         echo accorder ('Émerveillé', 'Émerveillée')
     ?>, vous la suivez. 
 
-    <p>Vous êtes accueilli par une famille de Leprechauns. Asling (le père) vous présente rapidement Iverna (son épouse), 
+    <p>Vous êtes 
+    <?php
+        echo accorder ('accueilli', 'accueillie')
+    ?>, par une famille de Leprechauns. Asling (le père) vous présente rapidement Iverna (son épouse), 
     Niallan (son fils aîné), Magosia (sa fille) et Dahey (son cadet). Il vous mène ensuite jusqu'à son lieu de stockage 
     de chaudrons remplis d'or. </p>
 

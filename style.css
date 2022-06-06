@@ -6,12 +6,6 @@ body {
     line-height: 1.4;
 }
 
-input[type=text], input[type=number] {
-    font-size: 1.2rem;
-    line-height: 1.4;
-    background-color: #FAEFDC;
-}
-
 #conteneur {
     min-height: 100vh;
     display: flex;
@@ -68,22 +62,36 @@ nav ul a:hover {
 section {
     display: flex;
     flex: 1;
+    align-items: flex-start;
 }
 
 article {
     flex: 8;
     display: flex;
     justify-content: space-around;
-    background-image: url("images/fond.jpg");
+    background-image: url("images/vintage-concrete.png");
     border: 10px #7F4724 solid;
     border-radius: 3px;
     color: #1F0E05;
+    min-height: 37rem;
+}
+
+article p {
+    text-indent: 3rem;
 }
 
 #histoire, #propositions {
     width: 45%;
     padding: 10px;
     margin: auto;
+}
+
+#audio {
+    text-align: center;
+}
+
+audio {
+    background-color: #ffb638;
 }
 
 #image {
@@ -125,17 +133,18 @@ tr:nth-child(3n) {
 }
 
 #histoire a {
-    color: #3B1A09;
+    color: #4D2611;
+    text-decoration: none;
+}
+
+#histoire a:visited {
+    color: #4D2611;
     text-decoration: none;
 }
 
 #histoire a:hover {
     text-decoration: underline;
-}
-
-#histoire a:visited {
-    color: #3B1A09;
-    text-decoration: none;
+    color: #B8683D;
 }
 
 #reliure {
@@ -144,22 +153,42 @@ tr:nth-child(3n) {
     margin: 0;
 }
 
+input[type="text"], input[type="number"] {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    background-color: #FAEFDC;
+}
+
+input[type="submit"] {
+    line-height: 1.4rem;
+    padding: 3px 10px;
+    margin-left: 10px;
+    border: 1px solid #1F0E05;
+    background-color: #E3AE61;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #FAC880;
+}
+
 article ul a {
-    color: #3B1A09;
+    color: #4D2611;
     text-decoration: none;
+}
+
+article ul a:visited {
+    color: #4D2611;
+    text-decoration: none; 
 }
 
 article ul a:hover {
     text-decoration: underline;
-}
-
-article ul a:visited {
-    color: #3B1A09;
-    text-decoration: none; 
+    color: #B8683D;
 }
 
 label {
-    color: #3B1A09;
+    color: #4D2611;
 }
 
 aside {
@@ -176,6 +205,7 @@ aside {
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
+    height: 37rem;
     border: 3px #F6C46F dashed;
     margin: 5px;
     padding: 6px;

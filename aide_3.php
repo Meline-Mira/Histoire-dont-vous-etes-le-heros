@@ -1,6 +1,8 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
+    <div id="audio"><audio src="musique/I-Never-Came-Home-Again.mp3" controls></audio></div>
+
     <p>Cette fois, vous attendez beaucoup plus longtemps avant de recevoir un nouveau message. Le nouveau code est 
     "N - I = ". Votre tante vous précise que vous n'avez pas besoin de vous presser pour répondre, qu'elle a tout son 
     temps.</p>
@@ -42,15 +44,19 @@
 <div id="propositions">
     <p>Que faites-vous ?</p>
     <ul>
-        <li><form method="post" action="enigme_3_bis.php">
-            
-            <label for="enigme">Vous envoyez le code (taper le chiffre) : </label>
-            <input type="number" name="enigme" id="enigme" maxlength="1" /> 
-            <p>
-            <input type="submit" value="Valider" />
-            </p></form></li>
-            <li><a href="hasard.php">Vous donnez un code au hasard.</a></li>
-            <li><a href="abandonner_2.php">Le code est trop compliqué. Vous baissez les bras et expliquez que vous ne pouvez pas plus aider.</a></li>
+        <li>
+            <p>    
+                <form method="post" action="enigme_3_bis.php">            
+                <label for="enigme">Vous envoyez le code (taper le chiffre) : </label>
+            </p>
+
+            <div>
+                <input type="number" name="enigme" id="enigme" maxlength="1" />            
+                <input type="submit" value="Valider" />
+            </div></form>
+        </li>
+        <li><a href="hasard.php">Vous donnez un code au hasard.</a></li>
+        <li><a href="abandonner_2.php">Le code est trop compliqué. Vous baissez les bras et expliquez que vous ne pouvez pas plus aider.</a></li>
     </ul>
     </form>
 </div>

@@ -1,6 +1,8 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
+    <div id="audio"><audio src="musique/The-Cave-of-the-Ancient-Warriors-#1-c_01.mp3" controls></audio></div>
+
     <p>Tatie Germaine commence à fatiguer. Vous l'auriez bien porté pour la soulager, mais la hauteur des tunnels ne 
     vous le permet pas... À moins que vous ne teniez particulièrement à ce qu'elle se cogne la tête à tous les pas. Vous 
     ne regrettez pas de l'avoir accompagné à ce point, n'est-ce pas ? Pour faire bonne figure, vous ferez exprès de 
@@ -48,13 +50,17 @@
 <div id="propositions">
     <p>Que faites-vous ?</p>
     <ul>
-        <li><form method="post" action="enigme_3.php">
-            
-            <label for="enigme">Vous trouvez le code (taper le chiffre) : </label>
-            <input type="number" name="enigme" id="enigme" maxlength="1" /> 
+        <li>
             <p>
-            <input type="submit" value="Valider" />
-            </p></form></li>
+                <form method="post" action="enigme_3.php">            
+                <label for="enigme">Vous trouvez le code (taper le chiffre) : </label>
+            </p>    
+            
+            <div>
+                <input type="number" name="enigme" id="enigme" maxlength="1" />             
+                <input type="submit" value="Valider" />
+            </div></form>
+        </li>
         <li><a href="perdu.php">Vous prenez un tunnel au hasard.</a></li>
         <li><a href="abandonner_1.php">Vous ne savez pas comment décrypter le message. Vous baissez les bras et préférez rentrer chez 
         vous.</a></li>

@@ -1,6 +1,8 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
+    <div id="audio"><audio src="musique/spring_-_pastorale_i.mp3" controls></audio></div>
+
     <p>À peine le temps d’une tonalité, que votre tante décroche déjà. Elle ne vous laisse pas le temps de la saluer 
     qu’elle annonce déjà :</p>
 
@@ -11,9 +13,9 @@
     <?php
         echo accorder('abasourdi', 'abasourdie');
     ?>. 
-    Et dire que ce sont les jeunes qu’elle traite 
-    de mal élevés. Vous vous jurez de lui dire de balayer devant sa porte la prochaine fois qu’elle vous critiquera sur 
-    vos manières. Malgré tout, vous suivez les instructions de tatie Germaine et l’appelez en visio.</p>
+    Et dire que ce sont les jeunes qu’elle traite de mal élevés. Vous vous jurez de lui dire de balayer devant sa porte 
+    la prochaine fois qu’elle vous critiquera sur vos manières. Malgré tout, vous suivez les instructions de tatie 
+    Germaine et l’appelez en visio.</p>
 
     <p>Encore une fois, elle ne vous laisse pas le temps de parler. Vous espérez que ce comportement ne deviendra pas 
     une manie. Cela commence à bien faire.</p>

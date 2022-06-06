@@ -1,6 +1,8 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
+    <div id="audio"><audio src="musique/Rise-of-spirit.mp3" controls></audio></div>
+
     <p>Vous avez rappelé votre tante et vu le Leprechaun de nouveau. Au cas où vous n'auriez pas bien lu son mail, elle 
     vous a expliqué que ses nouveaux amis se sont fait voler leur or et qu'ils demandaient de l'aide pour le retrouver. 
     Elle vous caresse dans le sens du poil en vous rappelant que vous êtes 

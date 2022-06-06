@@ -1,6 +1,8 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
+    <div id="audio"><audio src="musique/021914bgm2(happytune).mp3" controls></audio></div>
+
     <p>Vous arrivez chez un Leprechaun, qui vous regarde rentrer chez lui avec les yeux ronds. Il semblerait qu'il 
     s'appelle Dubhan et qu'il soit le plus grand ennemi d'Asling. Les deux lutins se disputent et en viennent aux mains. 
     Vous, vous n'avez pas signé pour ça, alors vous vous contentez de ne pas rester dans leur chemin et vous décaler 
