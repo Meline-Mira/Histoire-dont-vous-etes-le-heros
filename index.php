@@ -12,7 +12,7 @@
     <form method="post" action="enregistrer_infos.php">
         <p>
             <label for="pseudo">Choisissez votre pseudo :</lable>
-            <input type="text" name="pseudo" id="pseudo" maxlength="10" placeholder="10 caractères max"/>
+            <input type="text" name="pseudo" id="pseudo" maxlength="10" required placeholder="10 caractères max"/>
         </p>
 
         <p>
@@ -20,17 +20,17 @@
         </p>
 
         <p>
-            <input type="radio" name="genre" value="feminin" id="feminin" />
+            <input type="radio" required name="genre" value="feminin" id="feminin" />
             <label for="feminin">Féminin</label>
         </p>
 
         <p>
-            <input type="radio" name="genre" value="masculin" id="masculin" />
+            <input type="radio" required name="genre" value="masculin" id="masculin" />
             <label for="masculin">Masculin</label>
         </p>
 
         <p>
-            <input type="radio" name="genre" value="neutre" id="neutre" />
+            <input type="radio" required name="genre" value="neutre" id="neutre" />
             <label for="neutre">Neutre</label>
         </p>
 
