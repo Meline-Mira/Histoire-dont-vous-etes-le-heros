@@ -21,7 +21,7 @@
     chocolats seront vos meilleurs alliés pour traverser cette période.</p>
 
     <p>Toute cette histoire vous aura appris une chose : il ne faut jamais, au grand JAMAIS contrarier un Leprechaun. 
-    Maintenant, vous êtes prévenu.</p>
+    Maintenant, vous êtes <?php echo accorder('prévenu', 'prévenue'); ?>.</p>
 </div>
 
 <?php

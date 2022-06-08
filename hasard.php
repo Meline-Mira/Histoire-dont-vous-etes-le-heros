@@ -13,7 +13,7 @@
 
 <div id="propositions">
     <p>Les Leprechauns ont grogné à cause de votre incapacité à les aider. Ils vous maudissent d'avoir été si mauvais et 
-    ont décidé de faire les recherchent eux-mêmes. Ils ont planté tatie Germaine là, sans un adieu, et elle a dû trouver 
+    ont décidé de faire les recherches eux-mêmes. Ils ont planté tatie Germaine là, sans un adieu, et elle a dû trouver 
     un moyen de rentrer chez elle par elle-même. À priori, ça n'a pas été de la tarte. Elle est même presque certaine 
     d'avoir été maudite.</p>
 
