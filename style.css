@@ -219,7 +219,7 @@ aside {
     text-decoration: underline;
 }
 
-#separation-2 {
+.separation-2 {
     height: 3px;
     width: 100%;
     background-color: #70D6FF;
@@ -255,4 +255,70 @@ footer a:hover {
     align-items: center;
 }
 
+.tablette {
+    display: none;
+}
 
+/*Style tablettes*/
+
+@media screen and (max-width: 1023px)
+{
+    .ordinateur {
+        display: none;
+    }
+
+    .tablette {
+        display: block;
+    }
+
+    section {
+        flex-direction: column-reverse;
+        align-items: stretch;
+    }
+
+    article {
+        flex: 1;
+    }
+
+    aside {
+        flex: 1;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    #texte {
+        height: 5rem;
+        width: 100%;
+    }
+
+    #titre-aside {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 639px)
+{
+    article {
+        display: block;
+    }
+
+    #histoire, #propositions {
+        width: 90%;
+    }
+
+    #reliure {
+        display: none;
+    }
+
+    nav ul {
+        display: block;
+    }
+
+    nav li {
+        margin-top: 30px;
+    }
+
+    footer {
+        display: block;
+    }
+}

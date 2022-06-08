@@ -26,7 +26,16 @@
                 </aside>
             </section>
 
-            <hr id="separation-2" />
+            <hr class="separation-2" />
+
+            <nav class="tablette">
+                <ul>
+                    <li><a href="/recommencer.php">Recommencer</a></li>
+                    <li><a href="/credits.php">Crédits</a></li>
+                </ul>
+            </nav>
+
+            <hr class="tablette separation-2" />
 
             <footer>
                 <p>À propos de l'autrice :</p>

@@ -5,6 +5,7 @@
 <html>
     <head>
         <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter&display=swap"> 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap"> 
@@ -34,7 +35,7 @@
                     </div>
                 </div>
 
-                <nav>
+                <nav class="ordinateur">
                     <ul>
                         <li><a href="/recommencer.php">Recommencer</a></li>
                         <li><a href="/credits.php">Crédits</a></li>
