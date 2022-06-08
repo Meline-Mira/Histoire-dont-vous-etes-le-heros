@@ -267,6 +267,10 @@ footer a:hover {
         display: block;
     }
 
+    #conteneur {
+        min-height: auto;
+    }
+
     section {
         flex-direction: column-reverse;
         align-items: stretch;
