@@ -90,8 +90,17 @@ article p {
     text-align: center;
 }
 
+audio {
+    max-width: 100%;
+}
+
 #image {
     text-align: center;
+    text-indent: 0;
+}
+
+#image img {    
+    max-width: 100%;    
 }
 
 table {
@@ -153,12 +162,14 @@ input[type="text"], input[type="number"] {
     font-size: 1.2rem;
     line-height: 1.4;
     background-color: #FAEFDC;
+    max-width: 100%;
+    margin-right: 10px;
 }
 
 input[type="submit"] {
     line-height: 1.4rem;
     padding: 3px 10px;
-    margin-left: 10px;
+    margin-left: 0;
     border: 1px solid #1F0E05;
     background-color: #E3AE61;
     cursor: pointer;

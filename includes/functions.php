@@ -8,3 +8,12 @@ function accorder(string $masculin, string $feminin): string {
         return $masculin;
     }
 }
+
+function musique_autoplay() {
+    if ($_COOKIE['musique'] === 'oui') {
+        return ' autoplay ';
+    }
+    else {
+        return "";
+    }
+}

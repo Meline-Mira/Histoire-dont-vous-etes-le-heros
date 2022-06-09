@@ -35,6 +35,21 @@
         </p>
 
         <p>
+            Voulez-vous lancer automatiquement la musique à l'ouverture d'une nouvelle page ? (si votre navigateur le 
+            supporte et que vous lui avez donné la permission)
+        </p>
+
+        <p>
+            <input type="radio" required name="musique" value="oui" id="oui" />
+            <label for="oui">Oui</label>
+        </p>
+
+        <p>
+            <input type="radio" required name="musique" value="non" id="non" />
+            <label for="non">Non</label>
+        </p>
+
+        <p>
             <input type="submit" value="Valider" />
         </p>
     </form>

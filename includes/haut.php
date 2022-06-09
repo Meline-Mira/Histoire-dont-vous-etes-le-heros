@@ -17,7 +17,7 @@
         <div id="conteneur">
             <header>
                 <div id="logo">
-                    <div id="image">
+                    <div>
                         <img src="images/logo.png" alt="Logo d'un chaudron d'or" />
                     </div> 
                     
