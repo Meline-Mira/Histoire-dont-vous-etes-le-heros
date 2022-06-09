@@ -313,6 +313,10 @@ footer a:hover {
         display: block;
     }
 
+    article p {
+        text-indent: 1rem;
+    }
+
     #histoire, #propositions {
         width: 90%;
     }
