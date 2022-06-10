@@ -1,7 +1,9 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
-    <div id="audio"><audio src="musique/skin_cells_touch.flac" controls></audio></div>
+    <div id="audio"><audio src="musique/skin_cells_touch.flac" controls
+    <?php echo musique_autoplay(); ?>
+    ></audio></div>
 
     <p>Votre tante vous remercie d'avoir pris le temps de discuter avec elle. Elle comprend que ce ne soit pas simple 
     de venir sur un coup de tête, même si vous la sentez déçue. </p>

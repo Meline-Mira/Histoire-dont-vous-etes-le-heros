@@ -1,38 +1,42 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
-    <div id="audio"><audio src="musique/The-Cave-of-the-Ancient-Warriors-1-c_01.mp3" controls></audio></div>
+    <div id="audio"><audio src="musique/The-Cave-of-the-Ancient-Warriors-1-c_01.mp3" controls
+    <?php echo musique_autoplay(); ?>
+    ></audio></div>
 
     <p>Vous avancez tout droit sur quelques mètres, puis tombez de nouveau sur plusieurs embranchements. Heureusement, 
     cette fois encore, le voleur a dû se repérer lui aussi et a laissé un nouveau code. </p>
     
     <p>Vous lisez ceci : RPMGQ.</p>
 
+    <div id="indice">
     <?php if (!isset($_GET["indices"])) { ?>
-    <p><a href="/code_2.php?indices=1">Voir l'indice 1</a></p>
-    <?php } else {
-        $indice = intval($_GET["indices"]);
+    <p><a href="/code_2.php?indices=1#indice">Voir l'indice 1</a></p>
+        <?php } else {
+            $indice = intval($_GET["indices"]);
 
-        if ($indice >= 1) {
-            echo "<p>Indice 1 : Code César</p>";
-        }
-    
-        if ($indice >= 2) {
-            echo '<p>Indice 2 : Décaler chaque lettre de 2</p>';
-        }
-    
-        if ($indice >= 3) {
-            echo '<p>Solution : TROIS (taper 3)</p>';
-        }
+            if ($indice >= 1) {
+                echo "<p>Indice 1 : Code César</p>";
+            }
+        
+            if ($indice >= 2) {
+                echo '<p>Indice 2 : Décaler chaque lettre de 2</p>';
+            }
+        
+            if ($indice >= 3) {
+                echo '<p>Solution : TROIS (taper 3)</p>';
+            }
 
-        if ($indice === 1) {
-            echo '<p><a href="/code_2.php?indices=2">Voir l\'indice 2</a></p>';
-        }
+            if ($indice === 1) {
+                echo '<p><a href="/code_2.php?indices=2#indice">Voir l\'indice 2</a></p>';
+            }
 
-        if ($indice === 2) {
-            echo '<p><a href="/code_2.php?indices=3">Voir la solution</a></p>';
-        }
-    } ?>
+            if ($indice === 2) {
+                echo '<p><a href="/code_2.php?indices=3#indice">Voir la solution</a></p>';
+            }
+        } ?>
+    </div>
 </div>
 
 <hr id="reliure" />

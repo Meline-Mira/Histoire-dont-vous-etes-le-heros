@@ -1,7 +1,9 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
-    <div id="audio"><audio src="musique/Ceasefire.mp3" controls></audio></div>
+    <div id="audio"><audio src="musique/Ceasefire.mp3" controls
+    <?php echo musique_autoplay(); ?>
+    ></audio></div>
     <p>Vous envoyez un mail à votre tante pour lui donner votre horaire d'atterrissage, l'appelez pour être certain 
     qu'elle ait toutes les informations dont elle a besoin, puis faites votre valise. N'oubliez pas de prendre votre 
     pyjama et vos sous-vêtements, on a tendance à les oublier facilement… Ce serait dommage, non ? </p>

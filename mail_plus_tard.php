@@ -1,7 +1,9 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
-    <div id="audio"><audio src="musique/Adventure-Theme-Intro.wav" controls></audio></div>
+    <div id="audio"><audio src="musique/Adventure-Theme-Intro.wav" controls
+    <?php echo musique_autoplay(); ?>
+    ></audio></div>
 
     <p>Maintenant que vous en savez plus sur votre consommation mensuelle d’électricité, le prix de chaussettes bien 
     chaudes pour l’hiver ou encore les derniers potins de stars, vous pouvez vous consacrer au mail de votre tante. 

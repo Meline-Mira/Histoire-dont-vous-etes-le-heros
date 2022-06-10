@@ -1,7 +1,9 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
-    <div id="audio"><audio src="musique/I-Never-Came-Home-Again.mp3" controls></audio></div>
+    <div id="audio"><audio src="musique/I-Never-Came-Home-Again.mp3" controls
+    <?php echo musique_autoplay(); ?>
+    ></audio></div>
 
     <p>Jusque là, les codes étaient presque trop simples. Vous espérez que le prochain sera plus corsé. Vous recevez un 
     message et vous jetez sur votre téléphone. C'est bien tatie Germaine qui vous l'envoie, mais elle vous remercie 
@@ -125,143 +127,145 @@
         </tr>
     </table>
 
-    <?php if (!isset($_GET["indices"])) { ?>
-    <p><a href="/aide_4.php?indices=1">Voir l'indice 1</a></p>
-    <?php } else {
-        $indice = intval($_GET["indices"]);
+    <div id="indice">
+        <?php if (!isset($_GET["indices"])) { ?>
+        <p><a href="/aide_4.php?indices=1#indice">Voir l'indice 1</a></p>
+        <?php } else {
+            $indice = intval($_GET["indices"]);
 
-        if ($indice >= 1) {
-            echo "<p>Indice 1 : Sudoku</p>";
-        }
-    
-        if ($indice >= 2) {
-            echo '<p>Indice 2 : Dans chaque ligne, chaque colonne et chaque région (carrés de 3x3), les chiffres de 1 à 
-            9 ne peuvent apparaitre qu\'une fois.</p>';
-        }
-    
-        if ($indice >= 3) {
-            echo '<p>Solution :</p>
-            <table>
-            <tr>
-                <td>3</td>
-                <td>9</td>
-                <td class="chiffre">5</td>
-                <td>4</td>
-                <td class="chiffre">6</td>
-                <td>2</td>
-                <td>8</td>
-                <td>1</td>
-                <td class="chiffre">7</td>
-            </tr>
-    
-            <tr>
-                <td class="chiffre">8</td>
-                <td>1</td>
-                <td>6</td>
-                <td class="chiffre">3</td>
-                <td>7</td>
-                <td class="chiffre">9</td>
-                <td>4</td>
-                <td class="chiffre">2</td>
-                <td>5</td>
-            </tr>
-    
-            <tr>
-                <td class="chiffre">2</td>
-                <td class="chiffre">4</td>
-                <td class="chiffre">7</td>
-                <td>8</td>
-                <td class="chiffre">1</td>
-                <td class="chiffre">5</td>
-                <td class="chiffre">9</td>
-                <td>6</td>
-                <td>3</td>
-            </tr>
-    
-            <tr>
-                <td>6</td>
-                <td>7</td>
-                <td class="chiffre">1</td>
-                <td>9</td>
-                <td>8</td>
-                <td>4</td>
-                <td>5</td>
-                <td class="chiffre">3</td>
-                <td>2</td>
-            </tr>
-            
-            <tr>
-                <td class="chiffre">5</td>
-                <td>2</td>
-                <td>9</td>
-                <td class="chiffre">6</td>
-                <td>3</td>
-                <td class="chiffre">7</td>
-                <td id="reponse">1</td>
-                <td class="chiffre">8</td>
-                <td>4</td>
-            </tr>
-    
-            <tr>
-                <td>4</td>
-                <td>3</td>
-                <td>8</td>
-                <td>5</td>
-                <td>2</td>
-                <td class="chiffre">1</td>
-                <td class="chiffre">6</td>
-                <td>7</td>
-                <td>9</td>
-            </tr>
-    
-            <tr>
-                <td>7</td>
-                <td>5</td>
-                <td class="chiffre">2</td>
-                <td>1</td>
-                <td class="chiffre">9</td>
-                <td class="chiffre">8</td>
-                <td>3</td>
-                <td class="chiffre">4</td>
-                <td class="chiffre">6</td>
-            </tr>
-    
-            <tr>
-                <td>1</td>
-                <td class="chiffre">6</td>
-                <td>4</td>
-                <td>7</td>
-                <td class="chiffre">5</td>
-                <td>3</td>
-                <td class="chiffre">2</td>
-                <td>9</td>
-                <td>8</td>
-            </tr>
-    
-            <tr>
-                <td>9</td>
-                <td>8</td>
-                <td>3</td>
-                <td>2</td>
-                <td class="chiffre">4</td>
-                <td>6</td>
-                <td class="chiffre">7</td>
-                <td>5</td>
-                <td>1</td>
-            </tr>
-        </table>
+            if ($indice >= 1) {
+                echo "<p>Indice 1 : Sudoku</p>";
+            }
+        
+            if ($indice >= 2) {
+                echo '<p>Indice 2 : Dans chaque ligne, chaque colonne et chaque région (carrés de 3x3), les chiffres de 1 à 
+                9 ne peuvent apparaitre qu\'une fois.</p>';
+            }
+        
+            if ($indice >= 3) {
+                echo '<p>Solution :</p>
+                <table>
+                <tr>
+                    <td>3</td>
+                    <td>9</td>
+                    <td class="chiffre">5</td>
+                    <td>4</td>
+                    <td class="chiffre">6</td>
+                    <td>2</td>
+                    <td>8</td>
+                    <td>1</td>
+                    <td class="chiffre">7</td>
+                </tr>
+        
+                <tr>
+                    <td class="chiffre">8</td>
+                    <td>1</td>
+                    <td>6</td>
+                    <td class="chiffre">3</td>
+                    <td>7</td>
+                    <td class="chiffre">9</td>
+                    <td>4</td>
+                    <td class="chiffre">2</td>
+                    <td>5</td>
+                </tr>
+        
+                <tr>
+                    <td class="chiffre">2</td>
+                    <td class="chiffre">4</td>
+                    <td class="chiffre">7</td>
+                    <td>8</td>
+                    <td class="chiffre">1</td>
+                    <td class="chiffre">5</td>
+                    <td class="chiffre">9</td>
+                    <td>6</td>
+                    <td>3</td>
+                </tr>
+        
+                <tr>
+                    <td>6</td>
+                    <td>7</td>
+                    <td class="chiffre">1</td>
+                    <td>9</td>
+                    <td>8</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td class="chiffre">3</td>
+                    <td>2</td>
+                </tr>
+                
+                <tr>
+                    <td class="chiffre">5</td>
+                    <td>2</td>
+                    <td>9</td>
+                    <td class="chiffre">6</td>
+                    <td>3</td>
+                    <td class="chiffre">7</td>
+                    <td id="reponse">1</td>
+                    <td class="chiffre">8</td>
+                    <td>4</td>
+                </tr>
+        
+                <tr>
+                    <td>4</td>
+                    <td>3</td>
+                    <td>8</td>
+                    <td>5</td>
+                    <td>2</td>
+                    <td class="chiffre">1</td>
+                    <td class="chiffre">6</td>
+                    <td>7</td>
+                    <td>9</td>
+                </tr>
+        
+                <tr>
+                    <td>7</td>
+                    <td>5</td>
+                    <td class="chiffre">2</td>
+                    <td>1</td>
+                    <td class="chiffre">9</td>
+                    <td class="chiffre">8</td>
+                    <td>3</td>
+                    <td class="chiffre">4</td>
+                    <td class="chiffre">6</td>
+                </tr>
+        
+                <tr>
+                    <td>1</td>
+                    <td class="chiffre">6</td>
+                    <td>4</td>
+                    <td>7</td>
+                    <td class="chiffre">5</td>
+                    <td>3</td>
+                    <td class="chiffre">2</td>
+                    <td>9</td>
+                    <td>8</td>
+                </tr>
+        
+                <tr>
+                    <td>9</td>
+                    <td>8</td>
+                    <td>3</td>
+                    <td>2</td>
+                    <td class="chiffre">4</td>
+                    <td>6</td>
+                    <td class="chiffre">7</td>
+                    <td>5</td>
+                    <td>1</td>
+                </tr>
+            </table>
 
-        <p>(taper 1)</p>';
-        }
+            <p>(taper 1)</p>';
+            }
 
-        if ($indice === 1) {
-            echo '<p><a href="/aide_4.php?indices=2">Voir l\'indice 2</a></p>';
-        }
+            if ($indice === 1) {
+                echo '<p><a href="/aide_4.php?indices=2#indice">Voir l\'indice 2</a></p>';
+            }
 
-        if ($indice === 2) {
-            echo '<p><a href="/aide_4.php?indices=3">Voir la solution</a></p>';
-        }
-    } ?>
+            if ($indice === 2) {
+                echo '<p><a href="/aide_4.php?indices=3#indice">Voir la solution</a></p>';
+            }
+        } ?>
+    </div>
 </div>
 
 <hr id="reliure" />

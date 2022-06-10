@@ -1,7 +1,9 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
-    <div id="audio"><audio src="musique/021914bgm2(happytune).mp3" controls></audio></div>
+    <div id="audio"><audio src="musique/021914bgm2(happytune).mp3" controls
+    <?php echo musique_autoplay(); ?>
+    ></audio></div>
 
     <p>Tard le soir, votre tante Germaine vous envoie un message pour vous expliquer que le Leprechaun que vous avez 
     aidé avait été volé par son pire ennemi. Elle vous passe les détails, mais vous dit tout de même que le Leprechaun a 

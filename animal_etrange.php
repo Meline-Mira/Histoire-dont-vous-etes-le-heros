@@ -1,7 +1,9 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
-    <div id="audio"><audio src="musique/Fear.mp3" controls></audio></div>
+    <div id="audio"><audio src="musique/Fear.mp3" controls
+    <?php echo musique_autoplay(); ?>
+    ></audio></div>
     
     <p>La forme des traces est plus ou moins humanoïde... Enfin, un humain qui chausserait du 58, mais humain tout de 
     même.</p>

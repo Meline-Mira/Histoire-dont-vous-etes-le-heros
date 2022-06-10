@@ -1,7 +1,9 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
-    <div id="audio"><audio src="musique/spring_-_pastorale_i.mp3" controls></audio></div>
+    <div id="audio"><audio src="musique/spring_-_pastorale_i.mp3" controls
+    <?php echo musique_autoplay(); ?>
+    ></audio></div>
 
     <p>À peine le temps d’une tonalité, que votre tante décroche déjà. Elle ne vous laisse pas le temps de la saluer 
     qu’elle annonce déjà :</p>

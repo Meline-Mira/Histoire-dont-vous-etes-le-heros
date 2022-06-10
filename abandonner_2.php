@@ -1,7 +1,9 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
-    <div id="audio"><audio src="musique/skin_cells_touch.flac" controls></audio></div>
+    <div id="audio"><audio src="musique/skin_cells_touch.flac" controls
+    <?php echo musique_autoplay(); ?>
+    ></audio></div>
 
     <p>Les Leprechauns sont furieux de vous avoir fait confiance. Malheureusement, leur courroux à votre égard s'étend à 
     votre tante qui se retrouve obligée de quitter l'Irlande. Elle est immensément déçue par votre comportement et 

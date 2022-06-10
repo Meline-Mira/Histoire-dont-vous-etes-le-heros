@@ -1,7 +1,9 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
-    <div id="audio"><audio src="musique/I-Never-Came-Home-Again.mp3" controls></audio></div>
+    <div id="audio"><audio src="musique/I-Never-Came-Home-Again.mp3" controls
+    <?php echo musique_autoplay(); ?>
+    ></audio></div>
 
     <p>Vous recevez un premier message avec une photo d'empreintes</p>
 
@@ -14,31 +16,33 @@
 
     <p>Peu de temps après, vous recevez ce code : 17.21.1.20.18.5</p>
 
-    <?php if (!isset($_GET["indices"])) { ?>
-    <p><a href="/traces.php?indices=1">Voir l'indice 1</a></p>
-    <?php } else {
-        $indice = intval($_GET["indices"]);
+    <div id="indice">
+        <?php if (!isset($_GET["indices"])) { ?>
+        <p><a href="/traces.php?indices=1#indice">Voir l'indice 1</a></p>
+        <?php } else {
+            $indice = intval($_GET["indices"]);
 
-        if ($indice >= 1) {
-            echo "<p>Indice 1 : emplacement des lettres dans l'alphabet</p>";
-        }
-    
-        if ($indice >= 2) {
-            echo '<p>Indice 2 : A = 1, B = 2, C = 3, ...</p>';
-        }
-    
-        if ($indice >= 3) {
-            echo '<p>Solution : quatre (taper 4)</p>';
-        }
+            if ($indice >= 1) {
+                echo "<p>Indice 1 : emplacement des lettres dans l'alphabet</p>";
+            }
+        
+            if ($indice >= 2) {
+                echo '<p>Indice 2 : A = 1, B = 2, C = 3, ...</p>';
+            }
+        
+            if ($indice >= 3) {
+                echo '<p>Solution : quatre (taper 4)</p>';
+            }
 
-        if ($indice === 1) {
-            echo '<p><a href="/traces.php?indices=2">Voir l\'indice 2</a></p>';
-        }
+            if ($indice === 1) {
+                echo '<p><a href="/traces.php?indices=2#indice">Voir l\'indice 2</a></p>';
+            }
 
-        if ($indice === 2) {
-            echo '<p><a href="/traces.php?indices=3">Voir la solution</a></p>';
-        }
-    } ?>
+            if ($indice === 2) {
+                echo '<p><a href="/traces.php?indices=3#indice">Voir la solution</a></p>';
+            }
+        } ?>
+    </div>
 </div>
 
 <hr id="reliure" />

@@ -1,7 +1,9 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
-    <div id="audio"><audio src="musique/skin_cells_touch.flac" controls></audio></div>
+    <div id="audio"><audio src="musique/skin_cells_touch.flac" controls
+    <?php echo musique_autoplay(); ?>
+    ></audio></div>
 
     <p>Le tunnel que vous avez choisi n'était pas le bon. Le sous-sol est labyrinthique. Vous apprenez que le petit 
     groupe a fini par se perdre. Après des heures de marches, ils ont trouvé une sortie. Tatie Germaine savait où elle 

@@ -1,7 +1,9 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
-    <div id="audio"><audio src="musique/running-from-something.mp3" controls></audio></div>
+    <div id="audio"><audio src="musique/running-from-something.mp3" controls
+    <?php echo musique_autoplay(); ?>
+    ></audio></div>
 
     <p>Voilà une bonne chose de faite. Vous la bloquez aussi sur votre téléphone pour faire bonne figure. Cette fois-ci, 
     elle ne pourra plus vous déranger. Cette tante, ce qu’elle peut être pénible quand elle s’y met. Et puis si c’était 

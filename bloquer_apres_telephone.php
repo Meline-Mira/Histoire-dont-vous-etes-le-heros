@@ -1,7 +1,9 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
-    <div id="audio"><audio src="musique/running-from-something.mp3" controls></audio></div>
+    <div id="audio"><audio src="musique/running-from-something.mp3" controls
+    <?php echo musique_autoplay(); ?>
+    ></audio></div>
 
     <p>Vous apprendrez quelques semaines plus tard que Germaine a gagné beaucoup d’argent récemment, mais qu’elle a tout 
     donné à une association caritative. Vous en déduisez qu'elle était vraiment avec un Leprechaun la dernière fois.</p>

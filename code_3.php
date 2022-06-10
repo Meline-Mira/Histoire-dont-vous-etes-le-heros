@@ -1,7 +1,9 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
-    <div id="audio"><audio src="musique/The-Cave-of-the-Ancient-Warriors-1-c_01.mp3" controls></audio></div>
+    <div id="audio"><audio src="musique/The-Cave-of-the-Ancient-Warriors-1-c_01.mp3" controls
+    <?php echo musique_autoplay(); ?>
+    ></audio></div>
 
     <p>Tatie Germaine commence à fatiguer. Vous l'auriez bien porté pour la soulager, mais la hauteur des tunnels ne 
     vous le permet pas... À moins que vous ne teniez particulièrement à ce qu'elle se cogne la tête à tous les pas. Vous 
@@ -18,31 +20,33 @@
 
     <p>Le code est donc : N - I =</p>
 
-    <?php if (!isset($_GET["indices"])) { ?>
-    <p><a href="/code_3.php?indices=1">Voir l'indice 1</a></p>
-    <?php } else {
-        $indice = intval($_GET["indices"]);
+    <div id="indice">
+        <?php if (!isset($_GET["indices"])) { ?>
+        <p><a href="/code_3.php?indices=1#indice">Voir l'indice 1</a></p>
+        <?php } else {
+            $indice = intval($_GET["indices"]);
 
-        if ($indice >= 1) {
-            echo "<p>Indice 1 : Emplacement des lettres dans l'alphabet</p>";
-        }
-    
-        if ($indice >= 2) {
-            echo '<p>Indice 2 : N = 14, I = 9</p>';
-        }
-    
-        if ($indice >= 3) {
-            echo '<p>Solution : 14 - 9 = 5 (taper 5)</p>';
-        }
+            if ($indice >= 1) {
+                echo "<p>Indice 1 : Emplacement des lettres dans l'alphabet</p>";
+            }
+        
+            if ($indice >= 2) {
+                echo '<p>Indice 2 : N = 14, I = 9</p>';
+            }
+        
+            if ($indice >= 3) {
+                echo '<p>Solution : 14 - 9 = 5 (taper 5)</p>';
+            }
 
-        if ($indice === 1) {
-            echo '<p><a href="/code_3.php?indices=2">Voir l\'indice 2</a></p>';
-        }
+            if ($indice === 1) {
+                echo '<p><a href="/code_3.php?indices=2#indice">Voir l\'indice 2</a></p>';
+            }
 
-        if ($indice === 2) {
-            echo '<p><a href="/code_3.php?indices=3">Voir la solution</a></p>';
-        }
-    } ?>
+            if ($indice === 2) {
+                echo '<p><a href="/code_3.php?indices=3#indice">Voir la solution</a></p>';
+            }
+        } ?>
+    </div>
 </div>
 
 <hr id="reliure" />

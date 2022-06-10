@@ -1,7 +1,9 @@
 <?php require "includes/haut.php" ?>
 
 <div id="histoire">
-    <div id="audio"><audio src="musique/koertes-ccby-birdsongloop16s.mp3" controls></audio></div>
+    <div id="audio"><audio src="musique/koertes-ccby-birdsongloop16s.mp3" controls
+    <?php echo musique_autoplay(); ?>
+    ></audio></div>
 
     <p>En ce doux samedi de printemps, vous avez décidé d’aller vous acheter des viennoiseries à la 
     boulangerie. Vous les dégustez avec votre boisson chaude préférée. Son effluve remplit vos 
